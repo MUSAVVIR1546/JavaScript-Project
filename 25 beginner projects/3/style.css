@@ -1,0 +1,44 @@
+body{
+    padding: 5px;
+}
+
+.container{
+    border: 10px solid black;
+
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    background: blue;
+    padding: 5px;
+}
+
+.quotes{
+    border: 10px solid black;
+
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: aliceblue;
+    background-color: blueviolet;
+
+}
+
+.generate{
+    text-align: center;
+}
+
+.quotes p, h3{
+    font-size: 1.5rem;
+}
+
+@media(max-width:480px){
+    .quotes p, h3{
+        font-size: 1rem;
+    }
+        
+}
